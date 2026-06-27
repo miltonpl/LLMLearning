@@ -1,0 +1,46 @@
+# --- macOS files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Xcode files ---
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# --- User-specific Xcode settings ---
+# This ignores personal window layouts and open files, 
+# but keeps shared project settings.
+*.xcuserstate
+project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+xcuserdata/
+
+# --- Swift Package Manager ---
+.build/
+.swiftpm/
+xcodeobjdir/
+
+# --- Carthage (If used) ---
+Carthage/Build/
+
+# --- CocoaPods (If used) ---
+# It is generally recommended to commit the Pods directory, 
+# but uncomment the next line if you prefer not to.
+# Pods/
+
+# --- Fastlane (If used) ---
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# --- Backup files ---
+*.bak
+*.mode1v3
+*.mode2v3
+*.perspectivev3
